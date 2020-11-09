@@ -1,6 +1,31 @@
+/* Inizializzazione pagina */
 *{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: blue;
+}
+
+/* Container del sito */
+.container{
+  width: 1200px;
+  margin: auto;
+}
+
+/* Blocco header */
+.block-header{
+  background-color: yellow;
+  height: 100px;
+}
+
+/* Contenuto del sito */
+.content{
+  width: 100%;
+  border: 1px solid blue;
+
+}
+
+/* Blocco footer */
+.block-footer{
+  background-color: lightblue;
+  height: 100px;
 }
